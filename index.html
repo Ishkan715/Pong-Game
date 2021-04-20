@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <div>
+    <label for="score">Select Winning Score</label><br />
+    <input type="text" id="score" placeholder="Default: 10 Points" /><br />
+  </div>
+  <div id="container">
+    <button id="button1" disabled>Play</button>
+    <select id="difficulty">
+      <option disabled selected hidden>-- Select Difficulty --</option>
+      <option value="Easy">Easy</option>
+      <option value="Medium">Medium</option>
+      <option value="Hard">Hard</option>
+      <option value="Very Hard">Very Hard</option>
+    </select>
+  </div>
+
+  <canvas id="gameCanvas" width="1200" height="1000"></canvas>
+  <script src="script.js"></script>
+</html>
